@@ -13,6 +13,7 @@
         <version.junit.junit>4.12</version.junit.junit>
         <version.org.assertj.assertj-core>3.8.0</version.org.assertj.assertj-core>
         <version.org.project-lombok>1.18.10</version.org.project-lombok>
+        <version.jakarta.servlet-api>4.0.3</version.jakarta.servlet-api>
     </properties>
 
     <build>
@@ -51,6 +52,11 @@
             <artifactId>lombok</artifactId>
             <version>${version.org.project-lombok}</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>${version.jakarta.servlet-api}</version>
         </dependency>
     </dependencies>
 </project>
