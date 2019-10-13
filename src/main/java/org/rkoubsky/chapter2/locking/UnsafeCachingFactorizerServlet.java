@@ -66,9 +66,4 @@ public class UnsafeCachingFactorizerServlet extends GenericServlet implements Se
         // Doesn't really factor
         return new BigInteger[]{i};
     }
-
-    public static void main(String[] args) {
-        int i = 0;
-        System.out.println("Printing i before is incremented:" + ++i);
-    }
 }
