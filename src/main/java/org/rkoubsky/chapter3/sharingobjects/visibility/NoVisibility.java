@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter3.visibility;
+package org.rkoubsky.chapter3.sharingobjects.visibility;
 
 /**
  * Sharing variables without synchronization. Don't do this.

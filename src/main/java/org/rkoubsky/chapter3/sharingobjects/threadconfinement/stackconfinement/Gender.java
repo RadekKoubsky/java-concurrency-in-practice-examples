@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter3.visibility.threadconfinment.stackconfinment;
+package org.rkoubsky.chapter3.sharingobjects.threadconfinement.stackconfinement;
 
 public enum Gender {
     MALE, FEMALE

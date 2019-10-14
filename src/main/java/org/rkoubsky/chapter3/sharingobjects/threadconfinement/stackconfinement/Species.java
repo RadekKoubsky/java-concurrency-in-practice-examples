@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter3.visibility.threadconfinment.stackconfinment;
+package org.rkoubsky.chapter3.sharingobjects.threadconfinement.stackconfinement;
 
 public enum Species {
     AARDVARK, BENGAL_TIGER, CARIBOU, DINGO, ELEPHANT, FROG, GNU, HYENA,

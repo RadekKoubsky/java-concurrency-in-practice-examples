@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter3.visibility.escape;
+package org.rkoubsky.chapter3.sharingobjects.escape;
 
 /**
  * Implicitly allowing the this reference to escape. Don't do this.

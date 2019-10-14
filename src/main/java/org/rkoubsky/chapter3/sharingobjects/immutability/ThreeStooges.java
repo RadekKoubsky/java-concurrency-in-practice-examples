@@ -20,7 +20,7 @@ import java.util.Vector;
  *  - All its fields are final
  *  - It is properly constructed (the "this" reference does not escape during construction - see
  *  the escaping "this" from inner class instances in the "qualified this" example
- *  in {@link org.rkoubsky.chapter3.visibility.escape.ThisEscape} class )
+ *  in {@link org.rkoubsky.chapter3.sharingobjects.escape.ThisEscape} class )
  *
  *
  */

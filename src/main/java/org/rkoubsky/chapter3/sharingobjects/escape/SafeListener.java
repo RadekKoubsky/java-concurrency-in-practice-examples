@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter3.visibility.escape;
+package org.rkoubsky.chapter3.sharingobjects.escape;
 
 /**
  * Using a factory method to prevent the this reference from escaping during construction.

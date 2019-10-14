@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter3.visibility.threadconfinement.threadlocal;
+package org.rkoubsky.chapter3.sharingobjects.threadconfinement.threadlocal;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

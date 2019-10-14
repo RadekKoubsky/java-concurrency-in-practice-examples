@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter3.visibility.staledata;
+package org.rkoubsky.chapter3.sharingobjects.visibility.staledata;
 
 import net.jcip.annotations.GuardedBy;
 import net.jcip.annotations.ThreadSafe;
