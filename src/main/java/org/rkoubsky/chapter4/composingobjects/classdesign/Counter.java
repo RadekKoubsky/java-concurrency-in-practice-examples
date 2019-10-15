@@ -6,6 +6,14 @@ import net.jcip.annotations.ThreadSafe;
 /**
  * Simple thread-safe counter using the Java monitor pattern
  *
+ * <NOTE_java_monitor_pattern>
+ *
+ *     An object that follows the Java monitor pattern encapsulates
+ *     all its mutable state ant guards it with the object's  own
+ *     intrinsic lock.
+ *
+ * </NOTE_java_monitor_pattern>
+ *
  * <NOTE_thread_safe_class_design>
  *
  * The design process of a thread-safe class should include these three basic elements:
@@ -52,7 +60,7 @@ public final class Counter {
     @GuardedBy("this") private long value = 0;
 
     public synchronized long getValue() {
-        return value;
+        return this.value;
     }
 
     /**
@@ -62,8 +70,9 @@ public final class Counter {
      *
      */
     public synchronized long increment() {
-        if (value == Long.MAX_VALUE)
+        if (this.value == Long.MAX_VALUE) {
             throw new IllegalStateException("counter overflow");
-        return ++value;
+        }
+        return ++this.value;
     }
 }
