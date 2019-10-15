@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter4.composingobjects.independentstatevariables;
+package org.rkoubsky.chapter4.composingobjects.delegatingthreadsafety.independentstatevariables;
 
 import java.awt.event.KeyListener;
 import java.awt.event.MouseListener;

@@ -11,6 +11,18 @@ import java.math.BigInteger;
 /**
  * Caching the last result using a volatile reference to an immutable holder object
  *
+ * <NOTE_rules_required_for_using_volatile_variables>
+ *
+ *     You can use volatile variables only when all the following criteria are met:
+ *
+ *      - writes to the variable do not depend on its current value, or you can ensure
+ *      that only a single thread ever updates the value;
+ *
+ *      - it does not participate in invariants with other state variables; and
+ *
+ *      - locking is not required for any other reason while the variable is being accessed
+ *
+ * </NOTE_rules_required_for_using_volatile_variables>
  *
  */
 @ThreadSafe
@@ -25,7 +37,7 @@ public class VolatileCachedFactorizerServlet extends GenericServlet implements S
             factors = this.factor(i);
             /**
              * When a thread sets the volatile "cache" field to reference
-             * a new "OneValueCache", the new cached data becomes immediately to other
+             * a new "OneValueCache", the new cached data becomes immediately visible to other
              * threads.
              *
              * Remember the part about volatile variables from a memory visibility perspective:
