@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter4.composingobjects.addingfunctionality;
+package org.rkoubsky.chapter4.composingobjects.addingfunctionality.extension;
 
 import net.jcip.annotations.ThreadSafe;
 
