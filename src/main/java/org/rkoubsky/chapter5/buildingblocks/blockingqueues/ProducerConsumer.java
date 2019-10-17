@@ -1,4 +1,4 @@
-package org.rkoubsky.chapter5.buildingblocks.queues;
+package org.rkoubsky.chapter5.buildingblocks.blockingqueues;
 
 import java.io.File;
 import java.io.FileFilter;
