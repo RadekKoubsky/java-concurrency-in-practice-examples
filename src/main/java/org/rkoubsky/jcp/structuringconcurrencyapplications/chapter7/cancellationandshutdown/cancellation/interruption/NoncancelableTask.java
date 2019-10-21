@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.interruption;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.cancellation.interruption;
 
 import java.util.concurrent.BlockingQueue;
 
