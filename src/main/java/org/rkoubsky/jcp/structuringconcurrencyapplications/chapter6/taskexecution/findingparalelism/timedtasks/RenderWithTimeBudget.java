@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter6.taskexecution.findingparalelism.pagerenderer.timedtasks;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter6.taskexecution.findingparalelism.timedtasks;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
