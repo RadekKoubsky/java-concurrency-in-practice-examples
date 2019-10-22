@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.cancellation.shutdown.poisonpills;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.shutdown.poisonpills;
 
 import java.io.File;
 import java.util.concurrent.BlockingQueue;

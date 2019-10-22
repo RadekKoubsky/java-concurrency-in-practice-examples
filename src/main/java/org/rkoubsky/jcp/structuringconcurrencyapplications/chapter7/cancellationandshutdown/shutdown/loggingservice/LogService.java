@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.cancellation.shutdown.loggingservice;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.shutdown.loggingservice;
 
 import net.jcip.annotations.GuardedBy;
 

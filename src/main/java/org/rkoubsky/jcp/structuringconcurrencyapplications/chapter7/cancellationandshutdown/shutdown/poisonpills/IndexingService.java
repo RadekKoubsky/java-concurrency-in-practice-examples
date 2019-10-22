@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.cancellation.shutdown.poisonpills;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter7.cancellationandshutdown.shutdown.poisonpills;
 
 import org.rkoubsky.jcp.fundamentals.chapter5.buildingblocks.blockingqueues.ProducerConsumer;
 
