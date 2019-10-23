@@ -28,6 +28,41 @@ import java.util.concurrent.Future;
  *     the same executor and waits for its result will always deadlock.
  *
  * </NOTE_starvation_deadlock>
+ *
+ * <NOTE_implicit_coupling_between_task_and_execution_policies>
+ *
+ *     While the Executor framework offers substantial flexibility
+ *     in specifying and modifying execution policies, not all tasks
+ *     are compatible with all execution policies.
+ *
+ *     Types of tasks that require specific execution policies include:
+ *
+ *     [Dependent tasks]
+ *     The most well behaved tasks are independent: those that do not
+ *     depend on timing, results, or side effects of other tasks.
+ *
+ *     On the other hand, when you submit tasks that depend on other tasks
+ *     in a thread pool, you implicitly create constraints on the execution
+ *     policy that must be carefully managed to avoid liveness problems
+ *
+ *     [Tasks that exploit thread confinement]
+ *     Objects can be confined to the task thread, thus enabling
+ *     tasks designed to run in that thread to access those objects
+ *     without synchronization, even if the resources are not thread-safe.
+ *     This forms an implicit coupling between the task and the execution
+ *     policy - the tasks require their executor to be single-threaded.
+ *
+ *     [Response-time-sensitive tasks]
+ *     GUI applications are sensitive to response time. E.g. submitting
+ *     a long running task to a single-threaded executor may impair the
+ *     responsiveness of the service managed by the Executor.
+ *
+ *     [Tasks that use ThreadLocal]
+ *     ThreadLocal makes sense to use in pool threads only if the thread-local
+ *     value has lifetime that is bounded by that of a task; ThreadLocal should
+ *     not be used in pool threads to communicate values between tasks.
+ *
+ * </NOTE_implicit_coupling_between_task_and_execution_policies>
  */
 public class ThreadDeadLock {
     ExecutorService exec = Executors.newSingleThreadExecutor();
