@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.extendingthreadpoolexecutor;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.extendingthreadpoolexecutor;
 
 import lombok.extern.slf4j.Slf4j;
 

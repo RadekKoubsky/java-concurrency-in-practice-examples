@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.saturationpolicies;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.saturationpolicies;
 
 import net.jcip.annotations.ThreadSafe;
 

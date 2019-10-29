@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.threadfactories;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.threadfactories;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;

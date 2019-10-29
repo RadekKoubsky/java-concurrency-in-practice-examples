@@ -12,4 +12,4 @@
  * policies, and some combinations of tuning parameters may produce strange
  * results.
  */
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools;

@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.parallelizingrecursivealgorithms;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.parallelizingrecursivealgorithms;
 
 import java.util.Collection;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.starvationdeadlock;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.starvationdeadlock;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

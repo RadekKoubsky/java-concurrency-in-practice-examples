@@ -1,7 +1,7 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle.sequential;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle.sequential;
 
-import org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle.Puzzle;
-import org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle.PuzzleNode;
+import org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle.PuzzleNode;
+import org.rkoubsky.jcp.structuringconcurrencyapplications.chapter8.threadpools.parallelizingrecursivealgorithms.slidingblockpuzzle.Puzzle;
 
 import java.util.HashSet;
 import java.util.List;
