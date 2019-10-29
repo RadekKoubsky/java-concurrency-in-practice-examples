@@ -1,4 +1,4 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter11.performanceandscalability.reducinglockontention.reducinglockgranularity.locksplitting;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter11.performanceandscalability.reducinglockcontention.reducinglockgranularity.locksplitting;
 
 import net.jcip.annotations.GuardedBy;
 import net.jcip.annotations.ThreadSafe;
