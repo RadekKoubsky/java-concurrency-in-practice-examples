@@ -1,6 +1,7 @@
-package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter12.testingconcurrentprograms.testingforcorrectness;
+package org.rkoubsky.jcp.structuringconcurrencyapplications.chapter12.testingconcurrentprograms.testingforcorrectness.unittestsandblockingoperations;
 
 import org.junit.Test;
+import org.rkoubsky.jcp.structuringconcurrencyapplications.chapter12.testingconcurrentprograms.testingforcorrectness.SemaphoreBoundedBuffer;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertFalse;
@@ -8,8 +9,6 @@ import static org.junit.Assert.fail;
 
 public class SemaphoreBoundedBufferTest {
     private static final long LOCKUP_DETECT_TIMEOUT = 1000;
-    private static final int CAPACITY = 10000;
-    private static final int THRESHOLD = 10000;
 
     @Test
     public void testIsEmptyWhenConstructed() throws Exception {
