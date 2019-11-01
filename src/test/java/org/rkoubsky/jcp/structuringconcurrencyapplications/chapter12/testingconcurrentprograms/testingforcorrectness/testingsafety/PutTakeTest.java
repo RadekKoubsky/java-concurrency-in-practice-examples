@@ -47,9 +47,6 @@ public class PutTakeTest {
     private final AtomicInteger putSum = new AtomicInteger(0);
     private final AtomicInteger takeSum = new AtomicInteger(0);
 
-    /**
-     * Tests like PutTakeTest
-     */
     @Test
     public void test() {
         try {
